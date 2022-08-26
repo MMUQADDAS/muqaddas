@@ -1,0 +1,269 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+
+}
+
+body {
+  width: 100%;
+}
+
+header {
+  background: url(trening-po-rabote-s-klientami.png);
+  background-size: cover;
+  height: 600px;
+  background-position: center center;
+
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background: #ffffff;
+  align-items: center;
+  padding: 17px 0;
+}
+
+header nav .a {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 150px;
+
+
+  color: #DD4400;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  width: 500px;
+}
+
+header nav ul li a {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
+  /* identical to box height */
+
+
+  color: #4E4E4E;
+
+
+}
+
+header nav ul li a:hover {
+  color: #DD4400;
+}
+
+main {
+  margin-top: 36px;
+}
+
+main .orta {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 295px;
+  width: 1200px;
+  text-align: center;
+
+}
+
+main .orta .box {
+  background: #FFFFFF;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+  width: 186px;
+  height: 255px;
+}
+
+main .orta .box h2 {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 19px;
+  /* or 158% */
+
+  text-align: center;
+
+  /* Orange */
+
+  color: #DD4400;
+
+
+}
+
+main .orta .box img {
+  padding-top: 21px;
+  padding-bottom: 18px;
+}
+
+main .orta .box button {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  background-color: #DD4400;
+  width: 146px;
+
+
+  color: #FFFFFF;
+}
+
+.main2 {
+  margin-top: 70px;
+}
+
+.main2 .orta2 {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 295px;
+  width: 1200px;
+  height: 400px;
+  /* text-align: center; */
+}
+
+.main2 .orta2 h2 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 27px;
+  /* identical to box height */
+
+
+  color: #5E5E5E;
+
+}
+
+.main2 .orta2 p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  width: 600px;
+
+
+
+  color: #000000;
+
+}
+
+.main2 .orta2 .blok2 .list {
+  margin-top: 33px;
+  display: flex;
+  align-items: center;
+}
+
+.main2 .orta2 .blok2 .list a {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-decoration-line: underline;
+  width: 110px;
+  margin-left: 21px;
+  margin-top: 0px;
+  font-family: 'Montserrat';
+
+
+  color: #DD4400;
+
+}
+
+.main2 .orta2 .blok2 {
+
+  height: 100px;
+}
+
+.main2 .orta2 .blok1 button {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  background-color: #DD4400;
+  width: 146px;
+
+
+  color: #FFFFFF;
+
+}
+
+
+footer {
+  margin-top: 73px;
+  width: 100%;
+  height: 183px;
+  background: #DD4400;
+}
+
+footer .brief {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 295px;
+  width: 1200px;
+
+
+}
+
+footer .brief h4 {
+  margin-top: 45px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 27px;
+  /* identical to box height */
+
+
+  color: #FFFFFF;
+
+
+}
+
+footer .brief .body1 .numer {
+  padding-top: 9px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 39px;
+
+  color: #FFFFFF;
+
+}
+
+footer .brief p {
+  padding-top: 9px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 16px;
+  /* identical to box height */
+
+
+  color: #FFFFFF;
+
+}
+footer .brief .body2{
+  text-align: end;
+}
